@@ -135,6 +135,12 @@ header {
     display: flex;
     justify-content: space-between;
 }
+#content2-wrap a:nth-child(1) {
+    background-image: url(../img/main/nmain_pay_desk.png);
+}
+#content2-wrap a:nth-child(2) {
+    background-image: url(../img/main/nmain_maum_desk.png);
+}
 .content2-wrap-inner {
     display: block;
     width: 470px;
@@ -142,12 +148,4 @@ header {
     background-size: cover;
     position: relative;
 }
-.content2-wrap-inner:nth-child(1) {
-    background-image: url(../img/main/nmain_pay_desk.png);
-}
-.content2-wrap-inner:nth-child(2) {
-    background-image: url(../img/main/nmain_maum_desk.png);
-}
-.content2-wrap-inner a {
     
-}
