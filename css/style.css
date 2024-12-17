@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'SpoqaHanSansNeo-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'SpoqaHanSansNeo-Regular';
+}
+html, body {
+    width: 100%;
+}
+ol, ul {
+    list-style: none;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+#main-logo {
+    margin-left: 30px;
+}
+#main-gnb {
+    width: 50%;
+}
+#main-gnb ul {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+#main-gnb ul li {
+    font-weight: 500;
+}
+#main-admin {
+    width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #705d58;
+    margin-right: 30px;
+}
+#main-admin a {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    color: #ffffff;
+    gap: 5px;
+}
+#main-slide {
+    width: 100%;
+    height: 825px;
+    background-color: #f1eeee;
+    text-align: center;
+    position: relative;
+}
+#main-slide h2 {
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 110px;
+}
+#main-slide p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 30px;
+    line-height: 28px;
+}
+#main-slide-img {
+    margin: auto;
+    width: 675px;
+    height: 545px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#main-slide-img img {
+    height: 100%;
+}
+
+#content1 {
+    width: 100%;
+    height: 560px;
+    text-align: center;
+}
+#content1 h3 {
+    padding-top: 120px;
+    font-size: 28px;
+}
+#content1 p {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #945000;
+}
+#content1 ul {
+    width: 40%;
+    margin: auto;
+    display: flex;
+}
+#content1 ul li {
+    width: calc(100% / 4);
+}
+#content1 ul li img {
+    width: 80%;
+    margin: auto;
+}
+#content2 {
+    width: 100%;
+    height: 815px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding-top: 100px;
+}
+#content2 h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+#content2-wrap {
+    width: 980px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.content2-wrap-inner {
+    display: block;
+    width: 470px;
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+.content2-wrap-inner:nth-child(1) {
+    background-image: url(../img/main/nmain_pay_desk.png);
+}
+.content2-wrap-inner:nth-child(2) {
+    background-image: url(../img/main/nmain_maum_desk.png);
+}
+.content2-wrap-inner a {
+    
+}
