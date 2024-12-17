@@ -65,21 +65,44 @@ header {
 }
 .footer-banner-inner {
     width: 50%;
-    height: 80%;
+    height: 100%;
     margin: auto;
     background-image: url(../img/main/apply_bg_desk.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
+    position: relative;
 }
-#footer-banner-inner h3 {
+.footer-banner-inner h3 {
     font-size: 22px;
     font-weight: 400;
-    margin-top: 60px;
+    padding-top: 30px;
 }
-#footer-banner-inner h2 {
+.footer-banner-inner h2 {
     font-size: 32px;
     font-weight: 600;
+}
+.footer-banner-inner > p {
+    font-size: 13px;
+    color: #727272;
+    margin: 10px;
+}
+.footer-banner-button {
+    width: 153px;
+    height: 48px;
+    border-radius: 24px;
+    background-color: #ffbc00;
+    line-height: 48px;
+    font-size: 18px;
+    margin: auto;
+}
+.footer-banner-inner img {
+    width: 120px;
+    height: 130px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 #main-slide {
     width: 100%;
