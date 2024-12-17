@@ -5,6 +5,7 @@
     font-weight: normal;
     font-style: normal;
 }
+/* 공통작업 */
 * {
     margin: 0;
     padding: 0;
@@ -55,6 +56,30 @@ header {
     line-height: 50px;
     color: #ffffff;
     gap: 5px;
+}
+#footer-banner {
+    width: 100%;
+    height: 370px;
+    background-color: #f1eeee;
+    text-align: center;
+}
+.footer-banner-inner {
+    width: 50%;
+    height: 80%;
+    margin: auto;
+    background-image: url(../img/main/apply_bg_desk.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+#footer-banner-inner h3 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 60px;
+}
+#footer-banner-inner h2 {
+    font-size: 32px;
+    font-weight: 600;
 }
 #main-slide {
     width: 100%;
@@ -123,7 +148,7 @@ header {
     text-align: center;
     padding-top: 100px;
 }
-#content2 h2 {
+#content2 > h3 {
     font-size: 32px;
     font-weight: 600;
 }
@@ -148,4 +173,23 @@ header {
     background-size: cover;
     position: relative;
 }
+.content2-wrap-inner img:nth-child(1) {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.content2-wrap-inner h3:nth-child(2) {
+    position: absolute;
+    left: 40px;
+    top: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: left;
+}
+.content2-wrap-inner img:nth-child(3) {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
     
